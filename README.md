@@ -36,9 +36,11 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
       (*) puedes pasar el ticker de la acción en mayúscula, minúscula o cualquier combinación de ellas, da igual.
       (*2) por defecto el puerto que utiliza la api es el 6787
       
-2. En la consulta anterior debes enviarle en formato json la fecha de inicio y la fecha final del periodo del cual quieres obtener información acerca de la acción. El formato de la fecha es AA-MM-DD. Para indicar la fecha de inicio utiliza la key 'start', y para la fecha de fin utiliza la key 'end'.
+2. En la consulta anterior debes enviarle en formato **JSON** la fecha de inicio y la fecha final del periodo del cual quieres obtener información acerca de la acción. El formato de la fecha es AA-MM-DD. Para indicar la fecha de inicio utiliza la key 'start', y para la fecha de fin utiliza la key 'end'. 
 
-      Ejemplo, traer la data de la acción de 3M entre el 1 enero del 2000 y el 10 de enero del 2000:
+      En Postman lo hago colocando en el **Header** un par clave valor de Key: Content-Type y Value: application/json; y en el **Body** un raw con formato JSON.
+
+      Ejemplo, traer la data de la acción de Apple entre el 1 enero del 2000 y el 10 de enero del 2000, enviamos en el body:
       
       `{
             "start": "2000-01-01",
