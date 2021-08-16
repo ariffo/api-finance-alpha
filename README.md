@@ -48,8 +48,7 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
             "end": "2010-01-05"
        }`
        
-      Esto nos devolverá un JSON con los precios de Apertura (Open), Cierre (Close), Máximo precio del día (High), Menor precio del día (Low), Precio de cierre ajustado (Adj Close) y el volumen transado de la acción (Volume) para la fecha indicada.
-      
+      Esto nos devolverá un JSON con toda la información disponible para esa acción
       (*) Todos los tickers disponibles para usar se encuentran en el archivo /src/stocks_available.py
       
 
@@ -58,4 +57,14 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 Si quieres obtener solo un precio de la acción, agrega al get anterior en la url alguno de las siguientes rutas al nombre de la acción:
 
 - /open: Precio de apertura de la acción
-- 
+- /close: Precio de cierre de la acción
+- /high: Precio más alto de la acción ese día
+- /low: Precio más bajo de la acción ese día
+- /adj_close: Precio de cierre ajustado de la acción
+- /volume: Volumen transado de la acción ese día
+
+Ejemplo, para obtener el precio más alto de la acción de 3M para un período dado utilizaríamos la siguiente url
+
+`http://localhost:6787/mmm/high`
+
+(*) El body de la consulta mantiene el formato de fecha de inicio y final que vimos en el punto a) anteriormente
