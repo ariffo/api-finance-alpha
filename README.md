@@ -25,7 +25,7 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 
 ## IV. Cómo utilizar la api
 
-#### a) Obtener la información de una acción
+### a) Obtener toda la información de una acción
 
 1. Haz una consulta con el método **get** enviando el ticker de la acción en la url. El ticker de una acción es un código alfanumérico, que de forma abreviada, representa los valores de una empresa que cotiza en un determinado mercado bursátil. Por ejemplo: Visa = V; 3M = MMM; Caterpillar = CAT; Apple = AAPL; Coca-Cola = KO; etc. 
 
@@ -50,31 +50,9 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
        
       Esto nos devolverá un JSON con los precios de Apertura (Open), Cierre (Close), Máximo precio del día (High), Menor precio del día (Low), Precio de cierre ajustado (Adj Close) y el volumen transado de la acción (Volume) para la fecha indicada.
       
-      En nuestro ejemplo, nos devuelve el siguiente JSON:
+      (*) Todos los tickers disponibles para usar se encuentran en el archivo /src/stocks_available.py
       
-      `{
-    "Open": {
-        "2000-01-03": 0.9363840222358704,
-        "2000-01-04": 0.966517984867096
-    },
-    "High": {
-        "2000-01-03": 1.004464030265808,
-        "2000-01-04": 0.9877229928970337
-    },
-    "Low": {
-        "2000-01-03": 0.9079239964485168,
-        "2000-01-04": 0.9034600257873535
-    },
-    "Close": {
-        "2000-01-03": 0.9994419813156128,
-        "2000-01-04": 0.9151790142059326
-    },
-    "Adj Close": {
-        "2000-01-03": 0.8581374287605286,
-        "2000-01-04": 0.7857876420021057
-    },
-    "Volume": {
-        "2000-01-03": 535796800,
-        "2000-01-04": 512377600
-    }
-}`
+
+### b) Obtener información específica de una acción
+
+Si quieres obtener solo un precio de la acción
