@@ -41,11 +41,11 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 
       En Postman lo hago colocando en el **Header** un par clave valor de Key: Content-Type y Value: application/json; y en el **Body** un raw con formato JSON.
 
-      Ejemplo, traer la data de la acción de Apple entre el 1 enero del 2000 y el 10 de enero del 2000, enviamos en el body:
+      Ejemplo, traer la data de la acción de Apple entre el 1 enero del 2000 y el 5 de enero del 2000, enviamos en el body:
       
       `{
             "start": "2000-01-01",
-            "end": "2000-01-10"
+            "end": "2000-01-05"
        }`
        
       Esto nos devolverá un JSON con los precios de Apertura (Open), Cierre (Close), Máximo precio del día (High), Menor precio del día (Low), Precio de cierre ajustado (Adj Close) y el volumen transado de la acción (Volume) para la fecha indicada.
@@ -55,44 +55,26 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
       `{
     "Open": {
         "2000-01-03": 0.9363840222358704,
-        "2000-01-04": 0.966517984867096,
-        "2000-01-05": 0.9263389706611633,
-        "2000-01-06": 0.9475449919700623,
-        "2000-01-07": 0.861607015132904
+        "2000-01-04": 0.966517984867096
     },
     "High": {
         "2000-01-03": 1.004464030265808,
-        "2000-01-04": 0.9877229928970337,
-        "2000-01-05": 0.9871649742126465,
-        "2000-01-06": 0.955357015132904,
-        "2000-01-07": 0.9017860293388367
+        "2000-01-04": 0.9877229928970337
     },
     "Low": {
         "2000-01-03": 0.9079239964485168,
-        "2000-01-04": 0.9034600257873535,
-        "2000-01-05": 0.919642984867096,
-        "2000-01-06": 0.8482139706611633,
-        "2000-01-07": 0.8526790142059326
+        "2000-01-04": 0.9034600257873535
     },
     "Close": {
         "2000-01-03": 0.9994419813156128,
-        "2000-01-04": 0.9151790142059326,
-        "2000-01-05": 0.9285709857940674,
-        "2000-01-06": 0.8482139706611633,
-        "2000-01-07": 0.888392984867096
+        "2000-01-04": 0.9151790142059326
     },
     "Adj Close": {
         "2000-01-03": 0.8581374287605286,
-        "2000-01-04": 0.7857876420021057,
-        "2000-01-05": 0.7972861528396606,
-        "2000-01-06": 0.7282905578613281,
-        "2000-01-07": 0.7627887725830078
+        "2000-01-04": 0.7857876420021057
     },
     "Volume": {
         "2000-01-03": 535796800,
-        "2000-01-04": 512377600,
-        "2000-01-05": 778321600,
-        "2000-01-06": 767972800,
-        "2000-01-07": 460734400
+        "2000-01-04": 512377600
     }
 }`
