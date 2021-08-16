@@ -68,3 +68,16 @@ Ejemplo, para obtener el precio más alto de la acción de 3M para un período d
 `http://localhost:6787/mmm/high`
 
 (*) El body de la consulta mantiene el formato de fecha de inicio y final que vimos en el punto a) anteriormente
+
+
+### c) Obtener el precio en vivo de una acción
+
+Si deseas obtener el precio actual, en vivo, de una acción solo debes utilizar la urlen formato /name/today
+
+Ejemplo, obtener el precio actual de la acción de Coca-Cola:
+
+`http://localhost:6787/ko/today`
+
+Cabe mencionar que esto muestra el precio actual de la acción, por lo cual si el mercado está abierto el precio de la acción fluctuará segundo a segundo. En caso de que el mercado esté cerrado, obtendrás el último precio de cierre de la acción ya que es el precio actual.
+
+La bolsa de Nueva York está abierta durante las 9:30 y las 16:00 hrs (UTC-4). Permanece cerrada los fines de semana y días festivos.
