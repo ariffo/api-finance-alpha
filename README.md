@@ -1,7 +1,9 @@
 ## Bienvenido al repositorio oficial de Api-finance!
 
 **Información del repositorio:**
+
 Nombre oficial del repo: api-finance-alpha
+
 Descripción: Financial api about stocks price. Pyhton, flask, yfinance.
 
 **Requisitos:**
