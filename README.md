@@ -54,7 +54,7 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 
 ### b) Obtener información específica de una acción
 
-Si quieres obtener solo un precio de la acción, agrega al get anterior en la url alguno de las siguientes rutas al nombre de la acción:
+Si quieres obtener solo un precio de la acción o el volumen, agrega al get anterior en la url alguno de las siguientes rutas al nombre de la acción:
 
 - /open: Precio de apertura de la acción
 - /close: Precio de cierre de la acción
@@ -72,7 +72,7 @@ Ejemplo, para obtener el precio más alto de la acción de 3M para un período d
 
 ### c) Obtener el precio en vivo de una acción
 
-Si deseas obtener el precio actual, en vivo, de una acción solo debes utilizar la urlen formato /name/today
+Si deseas obtener el precio actual de una acción solo debes utilizar la url en formato /name/today
 
 Ejemplo, obtener el precio actual de la acción de Coca-Cola:
 
