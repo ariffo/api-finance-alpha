@@ -29,8 +29,8 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 
 1. Haz una consulta con el método **get** enviando el ticker de la acción en la url. El ticker de una acción es un código alfanumérico, que de forma abreviada, representa los valores de una empresa que cotiza en un determinado mercado bursátil. Por ejemplo: Visa = V; 3M = MMM; Caterpillar = CAT; Apple = AAPL; Coca-Cola = KO; etc. 
 
-Por ejemplo la url en mi local con el puerto 6787 quedaría así:
+      Por ejemplo la url en mi local con el puerto 6787 quedaría así:
 
-`http://localhost:6787/aapl`
+      `http://localhost:6787/aapl`
 
-(*) puedes pasar el ticker de la acción en mayúscula, minúscula o cualquier combinación de ellas, da igual.
+      (*) puedes pasar el ticker de la acción en mayúscula, minúscula o cualquier combinación de ellas, da igual.
