@@ -1,4 +1,4 @@
-# Bienvenido al repositorio oficial de Api-finance! :chart_with_upwards_trend:
+# Bienvenido al repositorio oficial de Api-finance! :chart_with_downwards_trend: :chart_with_upwards_trend:
 
 **Información del repositorio:**
 
