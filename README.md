@@ -17,9 +17,9 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 
 2. Levanta el contenedor con: 
 
-`docker-compose up`
+      `docker-compose up`
       
 si quieres que se levante en el background de modo que al matar la terminal no termine la ejecución del contenedor, utiliza el detach mode:
       
-`docker-compose up -d`
+      `docker-compose up -d`
 
