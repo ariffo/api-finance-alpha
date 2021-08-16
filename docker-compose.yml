@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  api-finance:
+    build: .
+    ports: 
+      - '6787:6787'
+    volumes:
+      - .:/app
+    environment: 
+      FLASK_ENV: development
