@@ -14,7 +14,8 @@ Descripción: Financial api about stocks price. Pyhton, flask, yfinance.
 1. Clona el repositorio en tu local, en el directorio que estimes conveniente. Te recomiendo crear un nuevo directorio con el nombre del proyecto,
 dentro de él iniciar git (git init) y luego clonar este repositorio https://github.com/ariffo/api-finance-alpha.git.
 2. Levanta el contenedor con: 
-      docker-compose up
+
+`docker-compose up`
       
 (*) si quieres que se levante en detache mode (en el background de modo que al matar la terminal no termine la ejecución del contenedor) utiliza:
       docker-compose up -d
