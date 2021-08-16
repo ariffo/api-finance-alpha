@@ -1,7 +1,8 @@
-# api-finance-alpha
-Financial api about stocks price. Pyhton, flask, yfinance.
-
 ##Bienvenido al repositorio oficial de Api-finance!
+
+**Información del repositorio:**
+Nombre oficial del repo: api-finance-alpha
+Descripción: Financial api about stocks price. Pyhton, flask, yfinance.
 
 **Requisitos:**
 1. Tener instalado docker en tu máquina.
@@ -15,3 +16,4 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
       
 (*) si quieres que se levante en detache mode (en el background de modo que al matar la terminal no termine la ejecución del contenedor) utiliza:
       docker-compose up -d
+
