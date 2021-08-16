@@ -81,3 +81,5 @@ Ejemplo, obtener el precio actual de la acción de Coca-Cola:
 Cabe mencionar que esto muestra el precio actual de la acción, por lo cual si el mercado está abierto el precio de la acción fluctuará segundo a segundo. En caso de que el mercado esté cerrado, obtendrás el último precio de cierre de la acción ya que es el precio actual.
 
 La bolsa de Nueva York está abierta durante las 9:30 y las 16:00 hrs (UTC-4). Permanece cerrada los fines de semana y días festivos.
+
+(*) Esto devuelve el precio de la acción con un delay de 5-10 segundos en relación a Yahoo Finance. Desconozco cuanto es el desfase en segundos entre Yahoo Finance y el Dow Jones o el S&P 500.
