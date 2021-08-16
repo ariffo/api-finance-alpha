@@ -34,6 +34,7 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
       `http://localhost:6787/aapl`
 
       (*) puedes pasar el ticker de la acción en mayúscula, minúscula o cualquier combinación de ellas, da igual.
+      
       (*2) por defecto el puerto que utiliza la api es el 6787
       
 2. En la consulta anterior debes enviarle en formato **JSON** la fecha de inicio y la fecha final del periodo del cual quieres obtener información acerca de la acción. El formato de la fecha es AA-MM-DD. Para indicar la fecha de inicio utiliza la key 'start', y para la fecha de fin utiliza la key 'end'. 
@@ -46,3 +47,5 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
             "start": "2000-01-01",
             "end": "2000-01-10"
        }`
+       
+      Esto nos devolverá un JSON con los precios de Apertura (Open), Cierre (Close), Máximo precio del día (High), Menor precio del día (Low), Precio de cierre ajustado (Adj Close) y el volumen transado de la acción (Volume) para la fecha indicada.
