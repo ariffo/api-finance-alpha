@@ -51,6 +51,7 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
       Esto nos devolverá un JSON con toda la información disponible para esa acción
       (*) Todos los tickers disponibles para usar se encuentran en el archivo /src/stocks_available.py
       
+      
 
 ### b) Obtener información específica de una acción
 
@@ -68,6 +69,7 @@ Ejemplo, para obtener el precio más alto de la acción de 3M para un período d
 `http://localhost:6787/mmm/high`
 
 (*) El body de la consulta mantiene el formato de fecha de inicio y final que vimos en el punto a) anteriormente
+
 
 
 ### c) Obtener el precio en vivo de una acción
