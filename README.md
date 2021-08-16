@@ -41,11 +41,11 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 
       En Postman lo hago colocando en el **Header** un par clave valor de Key: Content-Type y Value: application/json; y en el **Body** un raw con formato JSON.
 
-      Ejemplo, traer la data de la acción de Apple entre el 1 enero del 2000 y el 5 de enero del 2000, enviamos en el body:
+      Ejemplo, traer la data de la acción de Apple entre el 1 enero del 2010 y el 5 de enero del 2010, enviamos en el body:
       
       `{
-            "start": "2000-01-01",
-            "end": "2000-01-05"
+            "start": "2010-01-01",
+            "end": "2010-01-05"
        }`
        
       Esto nos devolverá un JSON con los precios de Apertura (Open), Cierre (Close), Máximo precio del día (High), Menor precio del día (Low), Precio de cierre ajustado (Adj Close) y el volumen transado de la acción (Volume) para la fecha indicada.
@@ -55,4 +55,7 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 
 ### b) Obtener información específica de una acción
 
-Si quieres obtener solo un precio de la acción
+Si quieres obtener solo un precio de la acción, agrega al get anterior en la url alguno de las siguientes rutas al nombre de la acción:
+
+- /open: Precio de apertura de la acción
+- 
