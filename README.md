@@ -25,7 +25,7 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
 
 ## IV. Cómo utilizar la api
 
-### a) Obtener toda la información de una acción
+## a) Obtener toda la información de una acción
 
 1. Haz una consulta con el método **get** enviando el ticker de la acción en la url. El ticker de una acción es un código alfanumérico, que de forma abreviada, representa los valores de una empresa que cotiza en un determinado mercado bursátil. Por ejemplo: Visa = V; 3M = MMM; Caterpillar = CAT; Apple = AAPL; Coca-Cola = KO; etc. 
 
@@ -53,7 +53,7 @@ dentro de él iniciar git (git init) y luego clonar este repositorio https://git
       
       
 
-### b) Obtener información específica de una acción
+## b) Obtener información específica de una acción
 
 Si quieres obtener solo un precio de la acción o el volumen, agrega al get anterior en la url alguno de las siguientes rutas al nombre de la acción:
 
@@ -72,7 +72,7 @@ Ejemplo, para obtener el precio más alto de la acción de 3M para un período d
 
 
 
-### c) Obtener el precio en vivo de una acción
+## c) Obtener el precio en vivo de una acción
 
 Si deseas obtener el precio actual de una acción solo debes utilizar la url en formato /name/today
 
